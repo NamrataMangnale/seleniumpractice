@@ -9,7 +9,7 @@ public class student
 	
   public void display1()
   {
-	  System.out.println ("Welcome to all of you");
+	  System.out.println ("Welcome to all of you students");
   }
   public void display2()
   {
