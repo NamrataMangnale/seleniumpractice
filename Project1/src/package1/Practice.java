@@ -1,10 +1,12 @@
 package package1;
 
-import java.util.Scanner;
-
 public class Practice {
 	
-	
+	public static void main(String namr[]) {
+		
+		Rectangle r = new Rectangle(10,20);
+		System.out.println(r.area());
+	}
 
 	
 }

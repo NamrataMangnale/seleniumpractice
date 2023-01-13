@@ -5,7 +5,7 @@ public class Constructer
 	public Constructer ()
 	{
 		
-	this(10,20,30);
+	this(7,9,80);
 		 System.out.println("default constructer");
 	}
 	 public Constructer(int a) 
@@ -16,7 +16,7 @@ public class Constructer
 
 	 public Constructer (int a, int b) 
 	 {
-		 this(12);
+		this(10);
 			 System.out.println("two parameterized constructer");
 		}
 	 
@@ -27,13 +27,16 @@ public class Constructer
 		}
 	 public Constructer (int a, int b, int c, int d) 
 	 {
-		 this(10,20);
+		this(60,80);
 			 System.out.println("Four parameterized consutuctor");
 		}
 	 
 	 	public static void main(String[] args)
 	 	{
-	 		Constructer ref = new Constructer (10,20,30,40); 
+	 		Constructer ref = new Constructer (10,20,30,70); 
+	 		
+
+
 		}	
 	
 
